@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="website icon" type="png"
+    href="logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hotel Booking</h1>
+    </header>
+    <main>
+       <img src="R2.jpg" alt="Hotel 1" width="50%">
+        <section class="booking-details">
+            <h2>Booking Details</h2>
+            <form action="confirmation.html" method="POST">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="checkin">Check-in Date</label>
+                <input type="date" id="checkin" name="checkin" required>
+                <label for="checkout">Check-out Date</label>
+                <input type="date" id="checkout" name="checkout" required>
+                <button type="submit">Confirm Booking</button>
+                <a href="/booking/" class="btn btn-success" type="button">list user details</a>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
